@@ -36,12 +36,12 @@ function loadProducts() {
       out += '</div>';
       out += '<div class="products__bonus">Можно купить за ' + data[key]["bonusAmount"] + ' балла</div>';
       out += '<div class="products__btn">';
-      out += '<button class="products__metre" id="metre" autofocus>За М. кв.' + '</button>';
+      out += '<button class="products__metre" id="metre">За М. кв.' + '</button>';
       out += '<button class="products__pack">За упаковку' + '</button>';
       out += '</div>';
       out += '<div class="products__cart">';
       out += '<div class="products__wrapper">';
-      out += '<input class="products__count" type="number" value="1">';
+      out += '<input class="products__count" type="text" value="1">';
       out += '<div class="products__toggle">';
       out += '<button class="products__up">' + '</button>';
       out += '<button class="products__down">' + '</button>';
