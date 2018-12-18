@@ -62,6 +62,7 @@ a {
   max-height: 160px;
 }
 .products__description {
+  grid-gap: 10px;
   display: grid;
   grid-template-rows: 30px 50px 1fr;
 }
